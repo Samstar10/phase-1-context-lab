@@ -79,16 +79,4 @@ function createEmployeeRecord(data) {
     return employees.find(employee => employee.firstName === firstName);
   }
   
-  // Exporting the helper functions
-//   module.exports = {
-//     createEmployeeRecord,
-//     createEmployeeRecords,
-//     createTimeInEvent,
-//     createTimeOutEvent,
-//     hoursWorkedOnDate,
-//     wagesEarnedOnDate,
-//     allWagesFor,
-//     calculatePayroll,
-//     findEmployeeByFirstName
-//   };
   
